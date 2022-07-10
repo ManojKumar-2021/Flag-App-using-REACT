@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.country_info_wrapper{
+margin-top: 20px;
+}
+
+.country_info_container{
+    column-gap: 1rem;
+    margin: auto 0;
+}
+
+ .country_info{
+width: 50%;
+}
+
+button{
+padding: 7px 20px;
+border: 2px solid orange;
+outline: none;
+text-decoration: none;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.country_info_img{
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h4{
+    font-size: 13px;
+    margin-left: 20px;
+   padding: 5px;
+}
