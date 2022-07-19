@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.js": "/Flag-App-using-REACT/static/js/main.398d85fd.js",
+    "main.css": "/Flag-App-using-REACT/static/css/main.a01649c4.css",
+    "main.js": "/Flag-App-using-REACT/static/js/main.fea1edc4.js",
     "static/css/743.cbb34387.chunk.css": "/Flag-App-using-REACT/static/css/743.cbb34387.chunk.css",
     "static/js/743.64d53bff.chunk.js": "/Flag-App-using-REACT/static/js/743.64d53bff.chunk.js",
-    "static/css/987.b6278f9a.chunk.css": "/Flag-App-using-REACT/static/css/987.b6278f9a.chunk.css",
+    "static/css/987.df772b15.chunk.css": "/Flag-App-using-REACT/static/css/987.df772b15.chunk.css",
     "static/js/987.8be8d485.chunk.js": "/Flag-App-using-REACT/static/js/987.8be8d485.chunk.js",
-    "static/css/262.1d415d8e.chunk.css": "/Flag-App-using-REACT/static/css/262.1d415d8e.chunk.css",
+    "static/css/262.8a5306c9.chunk.css": "/Flag-App-using-REACT/static/css/262.8a5306c9.chunk.css",
     "static/js/262.8f12435d.chunk.js": "/Flag-App-using-REACT/static/js/262.8f12435d.chunk.js",
-    "static/css/815.1fcbf5b2.chunk.css": "/Flag-App-using-REACT/static/css/815.1fcbf5b2.chunk.css",
+    "static/css/815.b23cfbb4.chunk.css": "/Flag-App-using-REACT/static/css/815.b23cfbb4.chunk.css",
     "static/js/815.7d8b8362.chunk.js": "/Flag-App-using-REACT/static/js/815.7d8b8362.chunk.js",
     "index.html": "/Flag-App-using-REACT/index.html",
-    "main.398d85fd.js.map": "/Flag-App-using-REACT/static/js/main.398d85fd.js.map",
+    "main.a01649c4.css.map": "/Flag-App-using-REACT/static/css/main.a01649c4.css.map",
+    "main.fea1edc4.js.map": "/Flag-App-using-REACT/static/js/main.fea1edc4.js.map",
     "743.cbb34387.chunk.css.map": "/Flag-App-using-REACT/static/css/743.cbb34387.chunk.css.map",
     "743.64d53bff.chunk.js.map": "/Flag-App-using-REACT/static/js/743.64d53bff.chunk.js.map",
-    "987.b6278f9a.chunk.css.map": "/Flag-App-using-REACT/static/css/987.b6278f9a.chunk.css.map",
+    "987.df772b15.chunk.css.map": "/Flag-App-using-REACT/static/css/987.df772b15.chunk.css.map",
     "987.8be8d485.chunk.js.map": "/Flag-App-using-REACT/static/js/987.8be8d485.chunk.js.map",
-    "262.1d415d8e.chunk.css.map": "/Flag-App-using-REACT/static/css/262.1d415d8e.chunk.css.map",
+    "262.8a5306c9.chunk.css.map": "/Flag-App-using-REACT/static/css/262.8a5306c9.chunk.css.map",
     "262.8f12435d.chunk.js.map": "/Flag-App-using-REACT/static/js/262.8f12435d.chunk.js.map",
-    "815.1fcbf5b2.chunk.css.map": "/Flag-App-using-REACT/static/css/815.1fcbf5b2.chunk.css.map",
+    "815.b23cfbb4.chunk.css.map": "/Flag-App-using-REACT/static/css/815.b23cfbb4.chunk.css.map",
     "815.7d8b8362.chunk.js.map": "/Flag-App-using-REACT/static/js/815.7d8b8362.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.398d85fd.js"
+    "static/css/main.a01649c4.css",
+    "static/js/main.fea1edc4.js"
   ]
 }
