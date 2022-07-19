@@ -4,9 +4,29 @@ import { Link } from 'react-router-dom';
 import ('./CountryInfo.css')
 
 
-const CountryInfo=() =>{
+const CountryInfo = () => {
   const [country, setCountry] = useState([]);
   const { countryName } = useParams();
+
+
+  // state variable for fav country-------start
+  const [favitem, setFavitem] = useState([]);
+  // state variable for fav country--------end
+
+  // function for add fav contry to state variable------start
+  function addFav() {
+    if (!favitem) {
+    } else {
+      var dummydata= [...favitem,country]
+       setFavitem(dummydata);
+       localStorage.setItem("favCountry", JSON.stringify(favitem));
+    }
+   
+  }
+
+  // console.log(favitem);
+  // function for add fav contry to state variable------end
+ 
 
   // fetch data from api when click on img------- code start-------------------------------------
 
@@ -23,13 +43,16 @@ const CountryInfo=() =>{
       }
     };
     getCountryByName();
+
+
+
   }, [countryName]);
 
   // fetch data from api when click on img------- code end-------------------------------------
 
   return (
     <div className="country_info_wrapper">
-      <button>
+      <button className="btn">
         <Link to="/">Back</Link>
       </button>
 
@@ -58,8 +81,14 @@ const CountryInfo=() =>{
           </div>
         </div>
       ))}
+      <div className="favroit_option_btn">
+        <button className="btn" onClick={() => addFav()}>
+          <h5 className="btnh6">Add To Favourite</h5>
+        </button>
+        <h4>press two times <span>Add to Favourite button</span> to ensure country is add in favourite list</h4>
+      </div>
     </div>
   );
-}
+};
 
 export default CountryInfo

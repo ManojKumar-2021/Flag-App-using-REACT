@@ -46,7 +46,7 @@ function Allcountry() {
   // load all data on home page ---------code end-----------------------------------------
 
   return (
-    <div>
+    <div className="container">
       <div className="continentsOption">
         <SwitchBWContinents onSelect={getCountryByRegion} />
       </div>
