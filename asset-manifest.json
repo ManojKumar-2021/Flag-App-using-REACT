@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Flag-App-using-REACT/static/css/main.a01649c4.css",
-    "main.js": "/Flag-App-using-REACT/static/js/main.fea1edc4.js",
+    "main.css": "/Flag-App-using-REACT/static/css/main.44201c83.css",
+    "main.js": "/Flag-App-using-REACT/static/js/main.d4948d82.js",
     "static/css/743.cbb34387.chunk.css": "/Flag-App-using-REACT/static/css/743.cbb34387.chunk.css",
     "static/js/743.64d53bff.chunk.js": "/Flag-App-using-REACT/static/js/743.64d53bff.chunk.js",
     "static/css/987.df772b15.chunk.css": "/Flag-App-using-REACT/static/css/987.df772b15.chunk.css",
@@ -11,8 +11,8 @@
     "static/css/815.b23cfbb4.chunk.css": "/Flag-App-using-REACT/static/css/815.b23cfbb4.chunk.css",
     "static/js/815.7d8b8362.chunk.js": "/Flag-App-using-REACT/static/js/815.7d8b8362.chunk.js",
     "index.html": "/Flag-App-using-REACT/index.html",
-    "main.a01649c4.css.map": "/Flag-App-using-REACT/static/css/main.a01649c4.css.map",
-    "main.fea1edc4.js.map": "/Flag-App-using-REACT/static/js/main.fea1edc4.js.map",
+    "main.44201c83.css.map": "/Flag-App-using-REACT/static/css/main.44201c83.css.map",
+    "main.d4948d82.js.map": "/Flag-App-using-REACT/static/js/main.d4948d82.js.map",
     "743.cbb34387.chunk.css.map": "/Flag-App-using-REACT/static/css/743.cbb34387.chunk.css.map",
     "743.64d53bff.chunk.js.map": "/Flag-App-using-REACT/static/js/743.64d53bff.chunk.js.map",
     "987.df772b15.chunk.css.map": "/Flag-App-using-REACT/static/css/987.df772b15.chunk.css.map",
@@ -23,7 +23,7 @@
     "815.7d8b8362.chunk.js.map": "/Flag-App-using-REACT/static/js/815.7d8b8362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a01649c4.css",
-    "static/js/main.fea1edc4.js"
+    "static/css/main.44201c83.css",
+    "static/js/main.d4948d82.js"
   ]
 }
