@@ -1,6 +1,7 @@
 import React ,{useState,useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom';
+// import Favourite from '../Favourite/Favourite';
 import ('./CountryInfo.css')
 
 
@@ -16,10 +17,12 @@ const CountryInfo = () => {
   // function for add fav contry to state variable------start
   function addFav() {
     if (!favitem) {
+       alert("This country added in favourite country");
     } else {
       var dummydata= [...favitem,country]
        setFavitem(dummydata);
        localStorage.setItem("favCountry", JSON.stringify(favitem));
+       alert("when you press one more time 'Add To Favourite' button then This country added in your favourite country if you already press twice time then ignore this alert.")
     }
    
   }

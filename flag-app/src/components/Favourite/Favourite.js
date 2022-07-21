@@ -20,7 +20,7 @@ function Favourite() {
         {favCount?.map((sumdata) => (
           <div className="fav_sub_container">
             <div className="fav_item_img">
-              <img src={sumdata.flags.png} alt="" />
+              <img className="fav_img" src={sumdata.flags.png} alt="" />
             </div>
             <div className="fav_item_name">
               <h3>{sumdata.name}</h3>

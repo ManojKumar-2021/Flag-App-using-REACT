@@ -7,7 +7,7 @@ function HomeAndFavNavBar() {
     <div className="nav_container">
 
       <div className="home_nav_container"></div>
-      <a className="home_nav_container_a" href="/">
+      <a className="home_nav_container_a" href="/#">
         Home
       </a>
 

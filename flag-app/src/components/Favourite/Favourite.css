@@ -1,4 +1,5 @@
 .fav_container{
+    padding: 0;
     width: 100vw;
     height: auto;
     margin-top: 10px;
@@ -16,8 +17,10 @@ margin: 20px;
 }
 
 .fav_item_img{
+padding: 4px 4px 0 4px;
 border: 2px solid orange;
 }
+
 .fav_item_name{
     margin-top: 3px;
     color: orange;
