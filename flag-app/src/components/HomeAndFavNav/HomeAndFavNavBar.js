@@ -3,11 +3,9 @@ import './HomeAndFavNavBar.css'
 
 function HomeAndFavNavBar() {
   return (
-    
     <div className="nav_container">
-
       <div className="home_nav_container"></div>
-      <a className="home_nav_container_a" href="/#">
+      <a className="home_nav_container_a" href="Flag-App-using-REACT/">
         Home
       </a>
 
