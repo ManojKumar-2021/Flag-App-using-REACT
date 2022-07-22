@@ -1,12 +1,13 @@
-import React from 'react'
-import './HomeAndFavNavBar.css'
+import React from "react";
+import "./HomeAndFavNavBar.css";
 
 function HomeAndFavNavBar() {
   return (
     <div className="nav_container">
       <div className="home_nav_container"></div>
-      <a
-        className="home_nav_container_a"href="/">Home</a>
+      <a className="home_nav_container_a" href="/flag-app/public/index.html">
+        Home
+      </a>
 
       <div className="fav_nav_container">
         <a className="fav_nav_container_a" href="#/favourite">
@@ -17,4 +18,4 @@ function HomeAndFavNavBar() {
   );
 }
 
-export default HomeAndFavNavBar
+export default HomeAndFavNavBar;
