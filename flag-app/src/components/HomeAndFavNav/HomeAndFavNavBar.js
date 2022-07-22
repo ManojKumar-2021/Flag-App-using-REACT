@@ -5,7 +5,7 @@ function HomeAndFavNavBar() {
   return (
     <div className="nav_container">
       <div className="home_nav_container"></div>
-      <a className="home_nav_container_a" href="/flag-app/public/index.html">
+      <a className="home_nav_container_a" href="/">
         Home
       </a>
 
