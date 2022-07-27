@@ -6,10 +6,8 @@ function HomeAndFavNavBar() {
   return (
     <div className="nav_container">
       <div className="home_nav_container"></div>
-      {/* href="/Flag-App-using-REACT" */}
       <p className="home_nav_container_a">
         <Link to="/">Home</Link>
-        Home
       </p>
       <div className="fav_nav_container">
         <p className="fav_nav_container_a" href="#/favourite">
