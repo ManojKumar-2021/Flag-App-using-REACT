@@ -1,18 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HomeAndFavNavBar.css";
 
 function HomeAndFavNavBar() {
   return (
     <div className="nav_container">
       <div className="home_nav_container"></div>
-      <a className="home_nav_container_a" href="/Flag-App-using-REACT">
+      {/* href="/Flag-App-using-REACT" */}
+      <p className="home_nav_container_a">
+        <Link to="/">Home</Link>
         Home
-      </a>
-
+      </p>
       <div className="fav_nav_container">
-        <a className="fav_nav_container_a" href="#/favourite">
-          Favourite Country
-        </a>
+        <p className="fav_nav_container_a" href="#/favourite">
+          <Link to="/favourite">Favourite</Link>
+        </p>
       </div>
     </div>
   );

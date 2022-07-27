@@ -11,8 +11,9 @@ function App() {
   return (
     <>
       <h1 className="heading">Countries Information</h1>
-      <HomeAndFavNav />
+
       <HashRouter>
+        <HomeAndFavNav />
         <Routes>
           <Route path="/" element={<Allcountry />} />
           <Route path="/country/:countryName" element={<CountryInfo />} />
